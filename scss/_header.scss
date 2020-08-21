@@ -1,0 +1,126 @@
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+	height: 84px;
+}
+.logo {
+	padding-top: 27px;
+}
+
+nav ul {
+	display: flex;
+}
+.nav li {
+	margin-right: 30px;
+	padding-top: 33px;
+	&:last-child {
+		margin-right: 0;
+	}
+}
+.nav a {
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(0, 0, 0, 0.9);
+}
+
+.reg button {
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #FFFFFF;
+	margin-top: 26px;
+	padding: 7px 9px;
+	border: 2px solid white;
+	background-color: #2D6CDF;
+	border-radius: 3px;
+}
+.header__content{
+	background: url(../img/bg2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px; 
+}
+.header__content-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.header__title h1 {
+	font-family: Roboto Slab;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 53px;
+	text-align: center;
+	color: #FFFFFF;;
+	margin-top: 211px;
+	
+}
+
+.header__btn button {
+	font-family: Source Sans Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 18px 38px;
+	margin-top: 20px;
+	margin-bottom: 212px;
+	border: none;
+	background: #2D6CDF;
+	border-radius: 30px;
+
+}
+
+.education__content{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	&-title {
+		font-family: Roboto Slab;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 32px;
+		text-transform: uppercase;
+		color: #000000;
+		
+	}
+	&-subtitle {
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 18px;
+		color: #828282;
+		padding: 20px 0 20px 0;
+		position: relative;
+		&:after {
+			content: '';
+			position: absolute;
+			top: 60px;
+			right: 290px;
+			width: 580px;
+			border-bottom: 1px solid rgba(130, 130, 130, 0.2);
+		}
+	}
+	&-text {
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 18px;
+		color: #828282;
+		padding-top: 30px;
+
+	}
+}

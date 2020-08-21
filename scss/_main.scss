@@ -1,0 +1,52 @@
+.education__class-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-left: 60px;
+
+	
+}
+.education__class {
+	max-width: 270px;
+	text-align: center;
+	padding: 0 30px 60px 0;
+	&-icon img {
+		border-radius: 50%;
+		&:hover {
+			background-color: blue;
+		}
+	}
+	&-title{
+		font-family: Roboto Slab;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 24px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #000000;
+		padding-top: 20px;
+	}
+	&-text {
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		line-height: 20px;
+		text-align: center;
+		color: #828282;
+		padding-top: 20px;
+	}
+}
+
+.status {
+	background: url(../img/status.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px; 
+}
+.status__inner {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 125px;
+}
