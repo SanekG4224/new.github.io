@@ -500,7 +500,7 @@ nav ul {
   .education__class-icon img {
     border-radius: 50%; }
     .education__class-icon img:hover {
-      background-color: blue; }
+      background-color: #2D6CDF; }
   .education__class-title {
     font-family: Roboto Slab;
     font-style: normal;
@@ -525,7 +525,8 @@ nav ul {
   background: url(../img/status.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px; }
+  height: 400px;
+  margin-bottom: 30px; }
 
 .status__inner {
   display: -webkit-box;
@@ -533,7 +534,160 @@ nav ul {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 125px; }
+  margin-top: 125px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.status__number {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF; }
+
+.status__text {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF; }
+
+.item {
+  min-width: 214px;
+  text-align: center;
+  padding-left: 38px; }
+  .item:last-child {
+    padding-left: 0; }
+
+.coures__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.course__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  padding-left: 10px; }
+  .course__item-text {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #828282;
+    width: 226.5px;
+    height: 174px;
+    padding-left: 29px;
+    margin-bottom: 0.5px; }
+
+.course__item h3 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 36px;
+  margin-bottom: 20px;
+  padding-left: 29px; }
+
+.course__button {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  padding: 13px 16px;
+  margin-left: 29px;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #FAFAFA; }
+
+.course__item-content {
+  width: 285px;
+  height: 330px;
+  background: #FAFAFA; }
+
+.reviews {
+  background-color: #1F5F8B;
+  height: 600px;
+  text-align: center; }
+  .reviews__title {
+    display: inline-block;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 84px;
+    position: relative; }
+    .reviews__title:after {
+      content: '';
+      position: absolute;
+      margin-right: -100%;
+      left: -80px;
+      top: 100px;
+      width: 40px;
+      border-bottom: 1px solid #FFFFFF; }
+    .reviews__title:before {
+      content: '';
+      position: absolute;
+      margin-left: -100%;
+      right: -80px;
+      top: 100px;
+      width: 40px;
+      border-bottom: 1px solid #FFFFFF; }
+
+.slider__conteiner {
+  margin-top: 60px; }
+
+.slider__item-name {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: #FFFFFF; }
+
+.slider__item-subtitle {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: #FFFFFF; }
+
+.slider__item-text {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 30px;
+  color: #FFFFFF;
+  width: 570px;
+  display: inline-block; }
 
 * {
   text-decoration: none;
